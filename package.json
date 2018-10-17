@@ -1,6 +1,6 @@
 {
   "name": "@workplus/compare-versions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple version comparison tool.",
   "main": "lib/compare-versions.js",
   "jsnext:main": "lib/compare-versions.mjs",
@@ -10,7 +10,7 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "prepublish": "npm test",
-    "publish": "npm publish --access=public"
+    "push": "npm publish --access=public"
   },
   "keywords": [
     "compare versions",
