@@ -48,6 +48,11 @@ compareVersions('3.14.1', '4.14.1'); // -1
 compareVersions('3.14.1', '4.14'); // null
 ```
 
-#### License
+## Author
 
-MIT [Hejx](https://github.com/hejianxian)
+* [youth7](https://github.com/youth7)
+* [Hejx](https://github.com/hejianxian)
+
+## License
+
+MIT 
