@@ -1,9 +1,12 @@
 {
-  "name": "@workplus/compare-versions",
+  "name": "@w6s/compare-versions",
   "version": "1.0.1",
   "description": "A simple version comparison tool.",
   "main": "lib/compare-versions.js",
   "jsnext:main": "lib/compare-versions.mjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava test/index.js",
     "pretest": "npm run build",
@@ -15,7 +18,8 @@
   "keywords": [
     "compare versions",
     "compare",
-    "workplus"
+    "workplus",
+    "w6s"
   ],
   "homepage": "https://github.com/WorkPlusFE/compare-versions",
   "author": "Hejx <531601727@qq.com>",
