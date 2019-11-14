@@ -16,7 +16,7 @@ Judgment rules and return results are as follows:
 ## Install
 
 ```bash
-npm install -S @workplus/compare-versions
+npm install -S @w6s/compare-versions
 ```
 
 ## Usage
@@ -25,10 +25,10 @@ npm install -S @workplus/compare-versions
 
 ```js
 // ES6
-import compareVersions from '@workplus/compare-versions';
+import compareVersions from '@w6s/compare-versions';
 
 // Node
-const compareVersions = require('@workplus/compare-versions');
+const compareVersions = require('@w6s/compare-versions');
 ```
 
 #### Compare
